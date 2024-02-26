@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { PencilIcon, CheckIcon } from "@heroicons/react/24/outline";
 import { useSelector, useDispatch } from "react-redux";
 import { updateUserSuccess, updateUserFailure } from "../../redux/actions";
-import {URL} from '../URL'
+import {URL} from '../../URL'
 const AdminProfile = ({ loginUser }) => {
   // const history = useNavigate();
   const dispatch = useDispatch();
