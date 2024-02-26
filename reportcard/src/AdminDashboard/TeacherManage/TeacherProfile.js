@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { PencilIcon, CheckIcon } from "@heroicons/react/24/outline";
 import { useSelector,useDispatch } from "react-redux";
 import { updateUserFailure } from "../../redux/actions";
-import {URL} from '../URL'
+import {URL} from '../../URL'
 const TeacherProfile = ({teacherProfile,closeTeacherModal}) => {
   const token = useSelector((state) => state.auth.user.token);
   const dispatch = useDispatch();
